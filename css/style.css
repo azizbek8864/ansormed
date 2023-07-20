@@ -1,0 +1,163 @@
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/red-hat-display-v14-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/red-hat-display-v14-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/red-hat-display-v14-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/red-hat-display-v14-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e8ff;
+  background-image: url("../images/Path\ 2.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+.wrapper-container {
+  width: 450px;
+  height: 697px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.15);
+}
+.title {
+  width: 354px;
+  color: #1f2e55;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: black;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px;
+  margin-bottom: 17px;
+}
+.text {
+  width: 354px;
+  height: 78px;
+  color: #717fa6;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  margin-left: 48px;
+}
+.header-img {
+  background-color: #f7f9ff;
+  border-radius: 11px;
+  width: 354px;
+  height: 98px;
+  margin-top: 20px;
+  margin-left: 48px;
+  display: flex;
+  margin-bottom: 32px;
+}
+.title-img {
+  margin-left: 24px;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+.main {
+  margin-top: 25px;
+  margin-right: 68.81px;
+}
+.main-text {
+  color: #1f2e55;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  width: 117.19px;
+}
+.main-link {
+  color: #717fa6;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 92px;
+}
+.nav-list {
+  color: #382ae1;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  margin-top: 40px;
+}
+.footer-button {
+  width: 354px;
+  height: 50px;
+  border-radius: 11px;
+  background-color: #382ae1;
+  box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+  color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-left: 48px;
+  padding-top: 15px;
+  padding-left: 102px;
+}
+.footer {
+  color: #717fa6;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-top: 32px;
+  margin-left: 176px;
+}
